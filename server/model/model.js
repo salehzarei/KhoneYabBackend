@@ -11,6 +11,7 @@ var schema = new mongoose.Schema({
         unique : true
     },
     gender: String,
+    age:String,
     status : String
 })
 
